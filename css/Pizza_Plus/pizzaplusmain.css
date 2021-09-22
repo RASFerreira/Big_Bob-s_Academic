@@ -1,0 +1,608 @@
+/* Configurações gerais*/
+
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+
+@font-face{
+    font-family: HitandRun;
+    src: url(../../font/HitandRun-Regular.otf);
+}
+
+@font-face{
+    font-family: MomcakeBold;
+    src: url(../../font/Momcake-Bold.otf);
+}
+
+@font-face{
+    font-family: MomcakeThin;
+    src: url(../../font/Momcake-Thin.otf);
+}
+
+@font-face{
+    font-family: OCRAExt;
+    src: url(../../font/OCRAEXT.TTF);
+}
+
+@font-face{
+    font-family: Mikado;
+    src: url(../../font/MikadoBold_DEMO.otf);
+}
+
+@font-face{
+    font-family: Grold;
+    src: url(../../font/GroldSlim-Bold.ttf);
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #181818;
+}
+
+/*::-webkit-scrollbar-button{
+
+}*/
+
+::-webkit-scrollbar-thumb{
+    background-color: #909090;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #606060;
+}
+
+nav.navbar-color{
+    background: #262527;
+    /*opacity: 80%;*/
+}
+
+.nav-link{
+    font-family: MomcakeBold;
+    font-size: 1.3em;
+    
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #b4b3b3;
+}
+
+
+.navbar-light .navbar-toggler{
+    color: rgba(255, 255, 255,0.5);
+    border-color: rgba(255, 255, 255,0.5);
+}
+
+/* Body */
+
+body{
+    background: #262527;
+}
+
+/* Header */
+
+#header{
+    background: url(../../img/Pizza_Plus/header.png)  ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* Faixas Verdes */
+
+.faixaverde1{
+    position: absolute;
+    margin: 0 2%;
+    margin-top: 10%;
+    background: #BDA180;
+    width: 96%;
+    height: 3px;
+    top: 1%;
+    z-index: 2;
+}
+
+.faixaverde2{
+    border-bottom: 3px solid #BDA180; 
+    margin-top: 10%;
+}
+
+.faixaverde3{
+    position: absolute;
+    margin: 0 2%;
+    margin-top: 7%;
+    background: #BDA180;
+    width: 47%;
+    left: 38%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde4{
+    position: absolute;
+    margin: 0 0;
+    margin-top: 43%;
+    right: 0;
+    background: #BDA180;
+    width: 47%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde5{
+    position: absolute;
+    margin: 0 2%;
+    margin-top: 4%;
+    background: #BDA180;
+    width: 52%;
+    left: 18%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde6{
+    position: absolute;
+    margin: 0 0;
+    margin-top: 45%;
+    left: 0;
+    background: #BDA180;
+    width: 47%;
+    height: 3px;
+    z-index: 2;
+}
+
+
+
+/* Delivery */
+
+#delivery{
+    padding-top: 15%;
+    position: relative;
+}
+
+
+
+.delivery__text--box{
+    padding-left: 8%;
+    padding-top: 5%;
+}
+
+.delivery__title{
+    font-family: Grold;
+    font-size: 2.5em;
+    color: #BDA180;
+    padding-bottom: 3%;
+}
+
+.delivery__text{
+    font-family: Grold;
+    font-size: 1.6em;
+    color: #EBECF5;
+}
+
+.delivery__app{
+    font-family: Mikado;
+    font-size: 2em;
+    color: #EBECF5;
+    padding-top: 40%;
+    padding-bottom: 3%;
+}
+
+.img__app{
+    margin-right: 2%;
+}
+
+.col--img__pizza1{
+    position: relative;
+    align-content: right;
+}
+
+.img__pizza1{
+    width: 100%;
+    height: 85vh;
+    
+}
+
+/* Presentation*/
+
+#presentation{
+    padding-top: 15%;
+    position: relative;
+    text-align: right;
+}
+
+.presentation__text--box{
+    padding-right: 8%;
+    padding-top: 12%;
+}
+
+.presentation__title{
+    font-family: Grold;
+    font-size: 2.5em;
+    color: #BDA180;
+    padding-bottom: 3%;
+    
+}
+
+.presentation__text{
+    font-family: Grold;
+    font-size: 1.4em;
+    color: #EBECF5;
+    text-align: left;
+}
+
+.img__pizza2{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/* Restaurantes*/
+
+#restaurantes{
+    padding-top: 10%;
+    position: relative;
+}
+
+.restaurantes__text--box{
+    padding-left: 8%;
+    padding-top: 10%;
+}
+
+.restaurantes__title{
+    font-family: Mikado;
+    font-size: 2em;
+    color: #BDA180;
+    text-transform: uppercase;
+    padding-bottom: 10%;
+}
+
+.restaurantes__text{
+    font-family: Mikado;
+    font-size: 1.4em;
+    color: #EBECF5;
+    
+}
+
+.local__title{
+    font-family: Grold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #EBECF5;
+}
+
+.local__text{
+    font-family: Grold;
+    color: #EBECF5;
+    font-size: 1.3em;
+    padding-bottom: 5%;
+}
+
+.img__pizza3{
+    width: 100%;
+    height: 70vh;
+    
+}
+
+
+/* Mural */
+
+#mural{
+    margin-top: 20%;
+}
+
+.mural1{
+    background-image: url(../../img/Pizza_Plus/mural1.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.mural2{
+    background-image: url(../../img/Pizza_Plus/mural2.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.mural3{
+    background-image: url(../../img/Pizza_Plus/mural3.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.mural4{
+    background-image: url(../../img/Pizza_Plus/mural4.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.mural5{
+    background-image: url(../../img/Pizza_Plus/mural5.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.mural6{
+    background-image: url(../../img/Pizza_Plus/mural6.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+/* Pre-Footer */
+
+.compartilhe{
+    background: #ffffff;
+    padding-top: 2%;
+    font-family: Mikado;
+    text-transform: uppercase;
+    color: #BDA180;
+    font-size: 1.4em;
+}
+
+.momentos{
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    font-family: Mikado;
+    text-transform: uppercase;
+    color: #BDA180;
+    font-size: 1.4em;
+}
+
+.col__social--media{
+    
+}
+
+.img__social-media{
+    
+    bottom: 0%;
+    margin-right: 10%;
+    padding-top: 8%;
+
+}
+
+.img__pre-footer{
+    background-image: url(../../img/Pizza_Plus/pizza_fatias.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Footer */
+
+#footer{
+    background: #56575C;
+}
+
+.footer{
+    padding-top: 1%;
+}
+
+.footer__title{
+    color: #BDA180;
+    font-family: MomcakeBold;
+    padding-left: 20%;
+}
+
+.footer__text{
+    color: #BDA180;
+    font-family: MomcakeThin;
+    text-decoration: none;
+    padding-left: 20%;
+}
+
+.footer__text:hover{
+    color: #88735c;
+    font-family: MomcakeThin;
+    text-decoration: none;
+}
+
+.app__title{
+    color: #BDA180;
+    font-family: MomcakeBold;
+    
+}
+
+.app__img{
+    margin-right: 2%;
+}
+
+.footer__rights{
+    color: #BDA180;
+    font-family: MomcakeBold;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom:0;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+/* Media querie*/
+
+@media (max-width: 575.98px) { 
+
+    #presentation{
+        padding-top: 15%;
+        position: relative;
+        text-align: left;
+        
+    }
+
+    .presentation__text{
+        font-family: Grold;
+        font-size: 1.5em;
+        color: #EBECF5;
+        padding-bottom: 15%;
+        
+    }
+
+    .faixaverde4{
+        position: absolute;
+        margin: 0 2%;
+        bottom: 0;
+        background: #BDA180;
+        width: 96%;
+        height: 3px;
+        z-index: 2;
+    }
+
+    .img__social-media{
+    
+        bottom: 0%;
+        margin-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    
+    }
+
+    .footer__title{
+        color: #BDA180;
+        font-family: MomcakeBold; 
+        text-align: left; 
+    }
+    
+    .footer__text{
+        color: #BDA180;
+        font-family: MomcakeThin;
+        text-decoration: none;
+    }
+
+
+   
+
+    
+
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    #presentation{
+        padding-top: 15%;
+        position: relative;
+        text-align: left;
+    }
+
+    .faixaverde4{
+        position: absolute;
+        margin: 0 2%;
+        margin-top: 75%;
+        background: #BDA180;
+        width: 96%;
+        height: 3px;
+        z-index: 2;
+    }
+    
+    .footer__title{
+        color: #BDA180;
+        font-family: MomcakeBold;
+    }
+    
+    .footer__text{
+        color: #BDA180;
+        font-family: MomcakeThin;
+        text-decoration: none;
+    }
+
+    
+    
+
+   
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .faixaverde4{
+        position: absolute;
+        margin: 0 0;
+        margin-top: 75%;
+        right: 0;
+        background: #BDA180;
+        width: 47%;
+        height: 3px;
+        z-index: 2;
+    }
+
+    .faixaverde6{
+        position: absolute;
+        margin: 0 0;
+        margin-top: 60%;
+        left: 0;
+        background: #BDA180;
+        width: 47%;
+        height: 3px;
+        z-index: 2;
+    }
+
+    .app__img{
+        margin-right: 2%;
+        margin-bottom: 4%;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .faixaverde4{
+        position: absolute;
+        margin: 0 0;
+        margin-top: 60%;
+        right: 0;
+        background: #BDA180;
+        width: 47%;
+        height: 3px;
+        z-index: 2;
+    }
+
+    .faixaverde6{
+        position: absolute;
+        margin: 0 0;
+        margin-top: 50%;
+        left: 0;
+        background: #BDA180;
+        width: 47%;
+        height: 3px;
+        z-index: 2;
+    }
+
+    .app__img{
+        margin-right: 2%;
+        margin-bottom: 4%;
+    }
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+}

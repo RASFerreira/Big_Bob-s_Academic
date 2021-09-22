@@ -1,0 +1,1096 @@
+/* Configurações gerais*/
+
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+
+@font-face{
+    font-family: HitandRun;
+    src: url(../../font/HitandRun-Regular.otf);
+}
+
+@font-face{
+    font-family: MomcakeBold;
+    src: url(../../font/Momcake-Bold.otf);
+}
+
+@font-face{
+    font-family: MomcakeThin;
+    src: url(../../font/Momcake-Thin.otf);
+}
+
+@font-face{
+    font-family: OCRAExt;
+    src: url(../../font/OCRAEXT.TTF);
+}
+
+@font-face{
+    font-family: Mikado;
+    src: url(../../font/MikadoBold_DEMO.otf);
+}
+
+@font-face{
+    font-family: Grold;
+    src: url(../../font/GroldSlim-Bold.ttf);
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #181818;
+}
+
+/*::-webkit-scrollbar-button{
+
+}*/
+
+::-webkit-scrollbar-thumb{
+    background-color: #909090;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #606060;
+}
+
+nav.navbar-color{
+    background: #262527;
+    /*opacity: 80%;*/
+}
+
+.nav-link{
+    font-family: MomcakeBold;
+    font-size: 1.3em;
+    
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #b4b3b3;
+}
+
+
+.navbar-light .navbar-toggler{
+    color: rgba(255, 255, 255,0.5);
+    border-color: rgba(255, 255, 255,0.5);
+}
+
+/* Body */
+
+body{
+    background: #262527;
+}
+
+/* Faixas Verdes*/
+
+.faixaverde1{
+    position: absolute;
+    margin: 0 2%;
+    margin-top: 3%;
+    background: #BDA180;
+    width: 42%;
+    left: 16.5%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde2{
+    position: absolute;
+    margin: 0 0;
+    margin-top: 38%;
+    left: 5%;
+    background: #BDA180;
+    width: 45%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde3{
+    position: absolute;
+    margin: 0 2%;
+    margin-top: 5.5%;
+    background: #BDA180;
+    width: 45%;
+    left: 38%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde4{
+    position: absolute;
+    margin: 0 0;
+    margin-top: 43%;
+    right: 0;
+    background: #BDA180;
+    width: 45%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde5{
+    position: absolute;
+    margin: 0 2%;
+    margin-top: 3%;
+    background: #BDA180;
+    width: 47%;
+    left: 24.5%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde6{
+    position: absolute;
+    margin: 0 0;
+    margin-top: 48%;
+    left: 0;
+    background: #BDA180;
+    width: 48%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde7{
+    position: absolute;
+    margin: 0 2%;
+    margin-top: 5.5%;
+    background: #BDA180;
+    width: 41.5%;
+    left: 34%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde8{
+    position: absolute;
+    margin: 0 0;
+    margin-top: 42%;
+    right: 0;
+    background: #BDA180;
+    width: 46%;
+    height: 3px;
+    z-index: 2;
+}
+
+
+
+/* Menu */
+
+#menu{
+    padding-top: 10%;
+    padding-bottom: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-bottom: 2px solid #ffffff;
+}
+
+.menu{
+    color: #EBECF5;
+    font-family: Mikado;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center;
+}
+
+/* Menu 1*/
+
+#menu__1{
+    padding-top: 15%;
+    position: relative;
+}
+
+.menu--1__text--box{
+    padding-left: 8%;
+    
+}
+
+.menu__1--title{
+    font-family: Mikado;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: right;
+    color: #EBECF5;
+    padding-bottom: 20%;
+}
+
+.menu__1--product{
+    font-family: Grold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #EBECF5;
+}
+
+.menu__1--product--top{
+    font-family: Grold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #EBECF5;
+}
+
+.menu__1--text{
+    width: 60%;
+    font-family: Grold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #EBECF5;
+    padding-bottom: 6%;
+}
+
+.col--img__pizza--menu1{
+    position: relative;
+    align-content: right;
+}
+
+.img__pizza--menu1{
+    width: 100%;
+    height: 85vh;
+    
+}
+
+/* Menu 2*/
+
+#menu__2{
+    padding-top: 15%;
+    position: relative;
+}
+
+.menu--2__text--box{
+    padding-right: 8%;
+    padding-top: 3%;
+}
+
+.menu__2--title{
+    font-family: Mikado;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #EBECF5;
+    padding-bottom: 10%;
+}
+
+.menu__2--product{
+    font-family: Grold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #EBECF5;
+}
+
+.menu__2--product--top{
+    font-family: Grold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #EBECF5;
+}
+
+.menu__2--text{
+    font-family: Grold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #EBECF5;
+    padding-bottom: 20%;
+    
+}
+
+.img__pizza--menu2{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/* Menu 3*/
+
+#menu__3{
+    padding-top: 10%;
+    position: relative;
+}
+
+.menu--3__text--box{
+    padding-left: 8%;
+    padding-top: 0%;
+}
+
+.menu__3--title{
+    font-family: Mikado;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: right;
+    color: #EBECF5;
+    padding-bottom: 10%;
+    margin-right: 10%;
+}
+
+.menu__3--product{
+    font-family: Grold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #EBECF5;
+}
+
+.menu__3--product--top{
+    font-family: Grold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #EBECF5;
+}
+
+.menu__3--text{
+    font-family: Grold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #EBECF5;
+    padding-bottom: 12%;
+    
+}
+
+.img__pizza--menu3{
+    width: 100%;
+    height: 80vh;
+    
+}
+
+/* Menu 4*/
+
+#menu__4{
+    padding-top: 15%;
+    position: relative;
+}
+
+.menu--4__text--box{
+    padding-right: 8%;
+    padding-top: 3%;
+}
+
+.menu__4--title{
+    font-family: Mikado;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #EBECF5;
+    padding-bottom: 10%;
+}
+
+.menu__4--product{
+    font-family: Grold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #EBECF5;
+}
+
+.menu__4--product--top{
+    font-family: Grold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #EBECF5;
+}
+
+.menu__4--text{
+    font-family: Grold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #EBECF5;
+    padding-bottom: 20%;
+    
+}
+
+.img__pizza--menu4{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/* Pre-Footer */
+
+.compartilhe{
+    background: #ffffff;
+    padding-top: 2%;
+    font-family: Mikado;
+    text-transform: uppercase;
+    color: #BDA180;
+    font-size: 1.4em;
+}
+
+.momentos{
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    font-family: Mikado;
+    text-transform: uppercase;
+    color: #BDA180;
+    font-size: 1.4em;
+}
+
+.col__social--media{
+    
+}
+
+.img__social-media{
+    
+    bottom: 0%;
+    margin-right: 10%;
+    padding-top: 8%;
+
+}
+
+.img__pre-footer{
+    background-image: url(../../img/Pizza_Plus/pizza_fatias.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Footer */
+
+#footer{
+    background: #56575C;
+}
+
+.footer{
+    padding-top: 1%;
+}
+
+.footer__title{
+    color: #BDA180;
+    font-family: MomcakeBold;
+    padding-left: 20%;
+}
+
+.footer__text{
+    color: #BDA180;
+    font-family: MomcakeThin;
+    text-decoration: none;
+    padding-left: 20%;
+}
+
+.footer__text:hover{
+    color: #88735c;
+    font-family: MomcakeThin;
+    text-decoration: none;
+}
+
+.app__title{
+    color: #BDA180;
+    font-family: MomcakeBold;
+    
+}
+
+.app__img{
+    margin-right: 2%;
+}
+
+.footer__rights{
+    color: #BDA180;
+    font-family: MomcakeBold;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom:0;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+
+
+
+/* Media querie*/
+
+@media (max-width: 575.98px) { 
+
+    #menu{
+        padding-top: 25%;
+        padding-bottom: 3%;
+        margin-right: 2%;
+        margin-left: 2%;
+        border-bottom: 2px solid #ffffff;
+    }
+
+    .menu--1__text--box{
+        padding-left: 6%;
+        
+    }
+    
+    .menu__1--title{
+        font-family: Mikado;
+        font-size: 2em;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 0;
+        color: #EBECF5;
+        border-bottom: 3px solid #BDA180;
+    }
+
+    .menu__1--product--top{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-top: 10%;
+        color: #EBECF5;
+    }
+
+    .menu__1--product{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #EBECF5;
+    }
+    
+    
+    .menu__1--text{
+        width: 60%;
+        font-family: Grold;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        color: #EBECF5;
+        padding-bottom: 6%;
+    }
+
+    .menu--2__text--box{
+        padding-left: 6%;
+        
+    }
+
+    .menu__2--title{
+        font-family: Mikado;
+        font-size: 2em;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 0;
+        color: #EBECF5;
+        border-bottom: 3px solid #BDA180;
+    }
+
+    .menu__2--product--top{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-top: 10%;
+        color: #EBECF5;
+    }
+
+    .menu__2--product{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #EBECF5;
+    }
+    
+    
+    .menu__2--text{
+        width: 70%;
+        font-family: Grold;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        color: #EBECF5;
+        padding-bottom: 6%;
+        
+    }
+
+    .menu--3__text--box{
+        padding-left: 6%;
+        padding-top: 0%;
+    }
+
+    .menu__3--title{
+        font-family: Mikado;
+        font-size: 1.8em;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 0;
+        color: #EBECF5;
+        border-bottom: 3px solid #BDA180;
+    }
+
+    .menu__3--product--top{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-top: 10%;
+        color: #EBECF5;
+    }
+
+    .menu__3--product{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #EBECF5;
+    }
+    
+    
+    .menu__3--text{
+        width: 60%;
+        font-family: Grold;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        color: #EBECF5;
+        padding-bottom: 6%;
+        
+    }
+
+    .menu--4__text--box{
+        padding-left: 6%;
+        
+    }
+
+    .menu__4--title{
+        font-family: Mikado;
+        font-size: 1.9em;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 0;
+        color: #EBECF5;
+        border-bottom: 3px solid #BDA180;
+    }
+
+    .menu__4--product--top{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-top: 10%;
+        color: #EBECF5;
+    }
+
+    .menu__4--product{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #EBECF5;
+    }
+    
+    
+    .menu__4--text{
+        width: 70%;
+        font-family: Grold;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        color: #EBECF5;
+        padding-bottom: 6%;
+        
+    }
+
+    .img__social-media{
+    
+        bottom: 0%;
+        margin-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    
+    }
+
+    .footer__title{
+        color: #BDA180;
+        font-family: MomcakeBold; 
+        text-align: left; 
+    }
+    
+    .footer__text{
+        color: #BDA180;
+        font-family: MomcakeThin;
+        text-decoration: none;
+    }
+    
+    
+    
+
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    #menu{
+        padding-top: 25%;
+        padding-bottom: 3%;
+        margin-right: 2%;
+        margin-left: 2%;
+        border-bottom: 2px solid #ffffff;
+    }
+
+    .menu--1__text--box{
+        padding-left: 6%;
+        
+    }
+    
+    .menu__1--title{
+        font-family: Mikado;
+        font-size: 2em;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 0;
+        color: #EBECF5;
+        border-bottom: 3px solid #BDA180;
+    }
+
+    .menu__1--product--top{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-top: 10%;
+        color: #EBECF5;
+    }
+
+    .menu__1--product{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #EBECF5;
+    }
+    
+    
+    .menu__1--text{
+        width: 60%;
+        font-family: Grold;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        color: #EBECF5;
+        padding-bottom: 6%;
+    }
+
+    .menu--2__text--box{
+        padding-left: 6%;
+        
+    }
+
+    .menu__2--title{
+        font-family: Mikado;
+        font-size: 2em;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 0;
+        color: #EBECF5;
+        border-bottom: 3px solid #BDA180;
+    }
+
+    .menu__2--product--top{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-top: 10%;
+        color: #EBECF5;
+    }
+
+    .menu__2--product{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #EBECF5;
+    }
+    
+    
+    .menu__2--text{
+        width: 70%;
+        font-family: Grold;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        color: #EBECF5;
+        padding-bottom: 6%;
+        
+    }
+
+    .menu--3__text--box{
+        padding-left: 6%;
+        padding-top: 0%;
+    }
+
+    .menu__3--title{
+        font-family: Mikado;
+        font-size: 1.8em;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 0;
+        color: #EBECF5;
+        border-bottom: 3px solid #BDA180;
+    }
+
+    .menu__3--product--top{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-top: 10%;
+        color: #EBECF5;
+    }
+
+    .menu__3--product{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #EBECF5;
+    }
+    
+    
+    .menu__3--text{
+        width: 60%;
+        font-family: Grold;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        color: #EBECF5;
+        padding-bottom: 6%;
+        
+    }
+
+    .menu--4__text--box{
+        padding-left: 6%;
+        
+    }
+
+    .menu__4--title{
+        font-family: Mikado;
+        font-size: 1.9em;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 0;
+        color: #EBECF5;
+        border-bottom: 3px solid #BDA180;
+    }
+
+    .menu__4--product--top{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-top: 10%;
+        color: #EBECF5;
+    }
+
+    .menu__4--product{
+        font-family: Grold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #EBECF5;
+    }
+    
+    
+    .menu__4--text{
+        width: 70%;
+        font-family: Grold;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        color: #EBECF5;
+        padding-bottom: 6%;
+        
+    }
+
+    .img__social-media{
+    
+        bottom: 0%;
+        margin-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    
+    }
+
+    .footer__title{
+        color: #BDA180;
+        font-family: MomcakeBold; 
+        text-align: left; 
+    }
+    
+    .footer__text{
+        color: #BDA180;
+        font-family: MomcakeThin;
+        text-decoration: none;
+    }
+    
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    /* Faixas Verdes*/
+
+.faixaverde1{
+    position: absolute;
+    margin: 0 2%;
+    margin-top: 10%;
+    background: #BDA180;
+    width: 42%;
+    left: 16.5%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde2{
+    position: absolute;
+    margin: 0 0;
+    margin-top: 65%;
+    left: 5%;
+    background: #BDA180;
+    width: 45%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde3{
+    position: absolute;
+    margin: 0 2%;
+    margin-top: 10%;
+    background: #BDA180;
+    width: 45%;
+    left: 38%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde4{
+    position: absolute;
+    margin: 0 0;
+    margin-top: 75%;
+    right: 0;
+    background: #BDA180;
+    width: 45%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde5{
+    position: absolute;
+    margin: 0 2%;
+    margin-top: 9%;
+    background: #BDA180;
+    width: 47%;
+    left: 24.5%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde6{
+    position: absolute;
+    margin: 0 0;
+    margin-top: 75%;
+    left: 0;
+    background: #BDA180;
+    width: 48%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde7{
+    position: absolute;
+    margin: 0 2%;
+    margin-top: 15%;
+    background: #BDA180;
+    width: 41.5%;
+    left: 34%;
+    height: 3px;
+    z-index: 2;
+}
+
+.faixaverde8{
+    position: absolute;
+    margin: 0 0;
+    margin-top: 70%;
+    right: 0;
+    background: #BDA180;
+    width: 46%;
+    height: 3px;
+    z-index: 2;
+}
+
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .faixaverde1{
+        position: absolute;
+        margin: 0 2%;
+        margin-top: 9%;
+        background: #BDA180;
+        width: 45%;
+        left: 10%;
+        height: 3px;
+        z-index: 2;
+    }
+    
+    .faixaverde2{
+        position: absolute;
+        margin: 0 0;
+        margin-top: 50%;
+        left: 5%;
+        background: #BDA180;
+        width: 45%;
+        height: 3px;
+        z-index: 2;
+    }
+    
+    .faixaverde3{
+        position: absolute;
+        margin: 0 2%;
+        margin-top: 10%;
+        background: #BDA180;
+        width: 45%;
+        left: 38%;
+        height: 3px;
+        z-index: 2;
+    }
+    
+    .faixaverde4{
+        position: absolute;
+        margin: 0 0;
+        margin-top: 55%;
+        right: 0;
+        background: #BDA180;
+        width: 45%;
+        height: 3px;
+        z-index: 2;
+    }
+    
+    .faixaverde5{
+        position: absolute;
+        margin: 0 2%;
+        margin-top: 9%;
+        background: #BDA180;
+        width: 47%;
+        left: 24.5%;
+        height: 3px;
+        z-index: 2;
+    }
+    
+    .faixaverde6{
+        position: absolute;
+        margin: 0 0;
+        margin-top: 60%;
+        left: 0;
+        background: #BDA180;
+        width: 48%;
+        height: 3px;
+        z-index: 2;
+    }
+    
+    .faixaverde7{
+        position: absolute;
+        margin: 0 2%;
+        margin-top: 10%;
+        background: #BDA180;
+        width: 41.5%;
+        left: 34%;
+        height: 3px;
+        z-index: 2;
+    }
+    
+    .faixaverde8{
+        position: absolute;
+        margin: 0 0;
+        margin-top: 55%;
+        right: 0;
+        background: #BDA180;
+        width: 46%;
+        height: 3px;
+        z-index: 2;
+    }
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+}

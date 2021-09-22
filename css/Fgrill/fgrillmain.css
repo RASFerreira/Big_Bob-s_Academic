@@ -1,0 +1,403 @@
+/* Configurações gerais*/
+
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+
+@font-face{
+    font-family: HitandRun;
+    src: url(../../font/HitandRun-Regular.otf);
+}
+
+@font-face{
+    font-family: MomcakeBold;
+    src: url(../../font/Momcake-Bold.otf);
+}
+
+@font-face{
+    font-family: MomcakeThin;
+    src: url(../../font/Momcake-Thin.otf);
+}
+
+@font-face{
+    font-family: OCRAExt;
+    src: url(../../font/OCRAEXT.TTF);
+}
+
+@font-face{
+    font-family: GroldM;
+    src: url(../../font/Grold-Medium.ttf);
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #181818;
+}
+
+/*::-webkit-scrollbar-button{
+
+}*/
+
+::-webkit-scrollbar-thumb{
+    background-color: #909090;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #606060;
+}
+
+nav.navbar-color{
+    background: #020001;
+    /*opacity: 80%;*/
+}
+
+.nav-link{
+    font-family: MomcakeBold;
+    font-size: 1.3em;
+    
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #b4b3b3;
+}
+
+.navbar-light .navbar-toggler{
+    color: rgba(255, 255, 255,0.5);
+    border-color: rgba(255, 255, 255,0.5);
+}
+
+
+/* Body */
+
+body{
+    background: #262527;
+}
+
+/* Header */
+
+#header{
+    position: relative;
+    background: url(../../img/Fgrill/headeropacity.png);
+    background-color: rgba(255, 255, 255,0.5);
+    background-size: cover;
+    background-position: center;
+    opacity: ;
+    height: 100vh;
+}
+
+.img__header{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+/* About Us */
+
+#about-us{
+    background: url(../../img/Fgrill/fundo_1.png);
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.about-us__title{
+    font-family: GroldM;
+    text-transform: uppercase;
+    color: #FBFBFB;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    padding-top: 5%;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.about-us__text{
+    font-family: GroldM;
+    text-transform: uppercase;
+    color: #FBFBFB;
+    font-size: 1.2em;
+    padding-top: 10%;
+}
+
+.img__about-us--box{
+    position: relative;
+}
+
+.img__about-us{
+    position: absolute;
+    top: 28%;
+    left: 40%;
+}
+
+
+/* Menu */
+
+.menu__title{
+    font-family: MomcakeBold;
+    color: #FBFBFB;
+    font-size: 4em;
+    text-transform: uppercase;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.img__carousel{
+    width: 100%;
+}
+
+.carousel-indicators{
+    color: #020001;
+}
+
+.product__title{
+    font-family: MomcakeBold;
+    color: #FBFBFB;
+    padding-left: 5%;
+    padding-top: 5%;
+    
+}
+
+.product__description{
+    font-family: GroldM;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #FBFBFB;
+    padding-left: 5%;
+    padding-bottom: 15%;
+}
+
+/* Acompanhamentos */
+
+#acompanhamentos{
+    background: url(../../img/Fgrill/fundo_1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.acompanhamento__title{
+    font-family: MomcakeBold;
+    color: #FBFBFB;
+    font-size: 4em;
+    text-transform: uppercase;
+    padding-top: 5%;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.cerveja{
+    font-family: MomcakeBold;
+    justify-content: center;
+    margin: 2%;
+    width: 300px; 
+    
+}
+
+.acompanhamento__description{
+    font-family: MomcakeBold;
+    color: #FBFBFB;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+
+/* Footer */
+
+#conteudo{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    align-items: center;
+    
+}
+
+#restaurantes{
+    background: #262527;
+}
+
+.restaurantes__list{
+    font-family: GroldM;
+    text-transform: uppercase;
+    color: #FBFBFB;
+    font-size: 1em;
+    justify-content: center;
+    margin: 2%;
+    width: 300px;
+}
+
+#pre-footer{
+    background: #262527;
+}
+
+.footer__title{
+    color: #FBFBFB;
+    font-family: MomcakeBold;
+}
+
+.footer__text{
+    color: #FBFBFB;
+    font-family: MomcakeThin;
+    text-decoration: none;
+}
+
+.footer__text:hover{
+    color: #cccaca;
+    font-family: MomcakeThin;
+    text-decoration: none;
+}
+
+.footer{
+    background: #262527;
+}
+
+.social__media{
+    margin-right: 2%;
+}
+
+.img__app{
+    margin-bottom: 2%;
+}
+
+.footer__rights{
+    color: #FBFBFB;
+    font-family: MomcakeBold;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom:0;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+
+/* Media querie*/
+
+@media (max-width: 575.98px) { 
+    
+    .img__header{
+        position: absolute;
+        top: 30%;
+        left: 20%;
+    }
+
+    .about-us__text{
+        font-family: GroldM;
+        text-transform: uppercase;
+        color: #FBFBFB;
+        font-size: 1.2em;
+        padding-top: 10%;
+    }
+
+    .product__description{
+        font-family: GroldM;
+        text-transform: uppercase;
+        color: #FBFBFB;
+        padding-bottom: 10%;
+    }
+
+    .acompanhamento__title{
+        font-family: MomcakeBold;
+        color: #FBFBFB;
+        font-size: 3.2em;
+        text-transform: uppercase;
+        padding-top: 5%;
+        padding-bottom: 0;
+        text-align: center;
+    }
+
+    .social__media{
+        margin-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+    .img__app{
+        margin-bottom: 2%;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+    
+    
+
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    .img__header{
+        position: absolute;
+        top: 30%;
+        left: 30%;
+    }
+
+    .product__description{
+        font-family: GroldM;
+        text-transform: uppercase;
+        color: #262527;
+        padding-bottom: 10%;
+    }
+
+    .acompanhamento__title{
+        font-family: MomcakeBold;
+        color: #FBFBFB;
+        font-size: 4em;
+        text-transform: uppercase;
+        padding-top: 5%;
+        padding-bottom: 0;
+        text-align: center;
+    }
+
+    .social__media{
+        margin-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+    .img__app{
+        margin-bottom: 2%;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+}

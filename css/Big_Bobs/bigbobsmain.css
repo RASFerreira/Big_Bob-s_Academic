@@ -1,0 +1,777 @@
+/* Configurações gerais*/
+
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+
+@font-face{
+    font-family: HitandRun;
+    src: url(../../font/HitandRun-Regular.otf);
+}
+
+@font-face{
+    font-family: MomcakeBold;
+    src: url(../../font/Momcake-Bold.otf);
+}
+
+@font-face{
+    font-family: MomcakeThin;
+    src: url(../../font/Momcake-Thin.otf);
+}
+
+@font-face{
+    font-family: OCRAExt;
+    src: url(../../font/OCRAEXT.TTF);
+}
+
+@font-face{
+    font-family: GroldM;
+    src: url(../../font/Grold-Medium.ttf);
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #181818;
+}
+
+/*::-webkit-scrollbar-button{
+
+}*/
+
+::-webkit-scrollbar-thumb{
+    background-color: #909090;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #606060;
+}
+
+nav.navbar-color{
+    background: #020001;
+    /*opacity: 80%;*/
+}
+
+.nav-link{
+    font-family: MomcakeBold;
+    font-size: 1.3em;
+    
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #b4b3b3;
+}
+
+
+
+.navbar-light .navbar-toggler{
+    color: rgba(255, 255, 255,0.5);
+    border-color: rgba(255, 255, 255,0.5);
+}
+
+
+/* Body */
+
+body{
+    background: url(../../img/Big_Bobs/fundo.png);
+}
+
+
+/* Header */
+
+#header{
+    background: #ffffff;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+
+    
+}
+
+.header__pizza{
+    position: relative;
+    background: url(../../img/Big_Bobs/header__pizza.png);
+    background-size: cover;
+    background-position: center;
+    /*margin-right: 3px;*/
+    width: 50%;
+    height: 100vh;
+}
+
+.header__pizza:hover{
+    position: relative;
+    background: url(../../img/Big_Bobs/header__pizza__hover.png);
+    background-size: cover;
+    background-position: bottom;
+    /*margin-right: 3px;*/
+    width: 80%;
+    height: 100vh;
+    flex-shrink: 1;
+    transition: width 0.5s;
+    
+}
+
+.header__grill{
+    position: relative;
+    background: url(../../img/Big_Bobs/header__grill.png);
+    background-size: cover;
+    background-position: center;
+    /*margin-left: 3px;*/
+    width: 50%;
+    height: 100vh;
+}
+
+.header__grill:hover{
+    position: relative;
+    background: url(../../img/Big_Bobs/header__grill__hover.png);
+    background-size: cover;
+    background-position: bottom;
+    /*margin-left: 3px;*/
+    width: 80%;
+    height: 100vh;
+    flex-shrink: 1;
+    transition: width 0.5s;
+    
+}
+
+.header__burger{
+    position: relative;
+    background: url(../../img/Big_Bobs/header__cheddar.png);
+    background-size: cover;
+    background-position: center;
+    /*margin: 0 3px;*/
+    width: 50%;
+    height: 100vh;
+}
+
+.header__burger:hover{
+    position: relative;
+    background: url(../../img/Big_Bobs/header__cheddar__hover.png);
+    background-size: cover;
+    background-position: bottom;
+    /*margin: 0 3px;*/
+    width: 80%;
+    height: 100vh;
+    flex-shrink: 1;
+    transition: width 0.5s;
+    
+}
+
+.link__header{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.link__header:hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+}
+
+.img__link--pizza{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+.img__link--bigbobs{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+.img__link--grill{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+/* Produtos */
+
+.menu__title{
+    font-family: OCRAExt;
+    color: #EBECF5;
+    font-size: 7em;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    padding-top: 20%;
+    text-align: right;
+}
+
+.menu__title--desert{
+    font-family: OCRAExt;
+    color: #56575C;
+    font-size: 7em;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    padding-top: 80%;
+    text-align: right;
+}
+
+.menu__title--sm{
+    font-family: OCRAExt;
+    color: #EBECF5;
+    font-size: 7em;
+    text-transform: uppercase;
+    padding-top: 20%;
+    text-align: center;
+}
+
+
+
+.hamburguer__top{
+    padding-top: 8%;
+}
+
+.hamburguer__middle{
+    padding-top: 4%;
+}
+
+.hamburguer__bottom{
+    padding-bottom: 8%;
+}
+
+
+.hamburguer__name--left{
+    font-family: GroldM;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.hamburguer__name--right{
+    font-family: GroldM;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.hamburguer__description--left{
+    font-family: GroldM;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+
+.hamburguer__description--right{
+    font-family: GroldM;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+
+#acompanhamentos{
+    background: url(../../img/Big_Bobs/fundo_1.png) #262527;
+    background-size: cover;
+}
+
+
+
+#conteudo{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    align-items: center;
+    
+}
+
+.item{
+    position: relative;
+    border: 3px solid #ffffff;
+    background-size: cover;
+    background-position: center;
+    margin: 2%;
+    width: 300px;
+    height: 70vh;
+}
+
+.item__box{
+    position: absolute;
+    top: 0%;
+    background-color: #ffffff;
+    width: 100%;
+    height: 20vh;
+    
+}
+
+.item__box--title{
+    font-family: MomcakeBold;
+    color: #000000;
+    text-align: center;
+    align-content: center;
+    padding-top: 20%;
+}
+
+.item__box--text{
+    font-family: MomcakeBold;
+    font-size: 1.4em;
+    color: #EBECF5;
+    padding-top: 65%;
+    padding-left: 10%;
+}
+
+#salads{
+    background: #ffffff;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.menu__title--salads{
+    font-family: OCRAExt;
+    color: #EBECF5;
+    font-size: 7em;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    padding-top: 0;
+    text-align: right;
+}
+
+.menu__title--salads--sm{
+    font-family: OCRAExt;
+    color: #EBECF5;
+    font-size: 7em;
+    text-transform: uppercase;
+    padding-top: 0;
+    text-align: center;
+}
+
+
+.carousel__control{
+    margin-bottom: 19%;
+    cursor: pointer;
+}
+
+.carousel__control--img{
+    height: 121px;
+    width: 181px;
+}
+
+.carousel__control--img--sm{
+    margin-bottom: 5%;
+    margin-right: 1.1%;
+    width: 161px;
+    height: 101px;
+    cursor: pointer;
+}
+
+
+.salad__title{
+    font-family: GroldM;
+    font-size: 2em;
+    padding-top: 2%;
+}
+
+.salad__description{
+    font-family: GroldM;
+    font-size: 1.3em;
+}
+
+
+#deserts{
+    background: #262527;
+}
+
+.desert__bottom{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.desert__name{
+    font-family: GroldM;
+    text-transform: uppercase;
+    color: #C5C6D1;
+    padding-top: 5%;
+}
+
+.desert__description{
+    font-family: GroldM;
+    text-transform: uppercase;
+    color: #C5C6D1;
+}
+
+
+
+.mural1{
+    background-image: url(../../img/Big_Bobs/mural_1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+
+.mural2{
+    background-image: url(../../img/Big_Bobs/mural_2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+
+.mural3{
+    background-image: url(../../img/Big_Bobs/mural_3.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+
+.mural4{
+    background-image: url(../../img/Big_Bobs/mural_4.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+
+#restaurantes{
+    background: #262527;
+}
+
+.restaurantes__list{
+    font-family: GroldM;
+    text-transform: uppercase;
+    color: #56575C;
+    font-size: 1.1em;
+    justify-content: center;
+    margin: 2%;
+    width: 300px;
+}
+
+#pre-footer{
+    background: #262527;
+}
+
+.footer__title{
+    color: #C5C6D1;
+    font-family: MomcakeBold;
+}
+
+.footer__text{
+    color: #C5C6D1;
+    font-family: MomcakeThin;
+    text-decoration: none;
+}
+
+.footer__text:hover{
+    color: #a7a8b1;
+    font-family: MomcakeThin;
+    text-decoration: none;
+}
+
+.footer{
+    background: #262527;
+}
+
+.social__media{
+    margin-right: 2%;
+}
+
+.img__app{
+    margin-bottom: 2%;
+}
+
+.footer__rights{
+    color: #56575C;
+    font-family: MomcakeBold;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom:0;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.item1{
+
+/* flex grow permite que um dos itens cresça, ouse ja seja maior e ocupe o resto do espaço em relação aos 
+outros itens, apenas quando ele fica do tamanho minimo é que acontece o flex */
+flex-grow: 1;
+
+/* fçex shrink permite dar u valor ate o qual o iten ira encolher, o valor inicial é de 1 e quanto maior
+for o valor mais o objeto encolhe */
+flex-shrink: 2;
+
+/* flex basis é o valor base do objeto em um estado normal, o seu valor inicial é auto, pode ser alterado para a medida
+que se quer dar como por exemplo 200px ou 20%*/
+flex-basis: auto;
+}
+
+/*  Permite alterar a ordem a ser apresentada, base da ordem é 0  */
+.ordem1{
+order: 1;
+}
+
+.ordem2{
+order: 2;
+}
+
+.ordem3{
+order: 3;
+}
+
+.ordem4{
+order: 4;
+}
+
+
+/* Media querie*/
+
+@media (max-width: 575.98px) { 
+    
+    .header__burger{
+        background: url(../../img/Big_Bobs/header__cheddar.png);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .header__burger:hover{
+        background: url(../../img/Big_Bobs/header__cheddar__hover.png);
+        background-size: cover;
+        background-position: bottom;
+        margin: 0;
+        width: 100%;
+        height: 100vh;   
+    }
+
+    .img__link--bigbobs{
+        position: absolute;
+        top: 40%;
+        left: 23%;
+    }
+
+    .menu__title{
+        font-family: OCRAExt;
+        color: #EBECF5;
+        font-size: 4em;
+        text-transform: uppercase;
+        writing-mode: horizontal-tb;
+        padding-top: 8%;
+        text-align: center;
+    }
+
+    .menu__title--desert{
+        font-family: OCRAExt;
+        color: #56575C;
+        font-size: 4em;
+        text-transform: uppercase;
+        writing-mode: horizontal-tb;
+        padding-top: 8%;
+        padding-bottom: 10%;
+        text-align:center;
+    }
+
+    .hamburguer__name--left{
+        font-family: GroldM;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .hamburguer__name--right{
+        font-family: GroldM;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .hamburguer__description--left{
+        font-family: GroldM;
+        text-transform: uppercase;
+        text-align: justify;
+    }
+    
+    
+    .hamburguer__description--right{
+        font-family: GroldM;
+        text-transform: uppercase;
+        text-align: justify;
+    }
+
+    .carousel__control--img--sm{
+        margin-bottom: 5%;
+        margin-right: 1.1%;
+        width: 131px;
+        height: 81px;
+        cursor: pointer;
+    }
+
+    .desert__name{
+        font-family: GroldM;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .social__media{
+        margin-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+    .img__app{
+        margin-bottom: 2%;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+    
+
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    .header__burger{
+        background: url(../../img/Big_Bobs/header__cheddar.png);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .header__burger:hover{
+        background: url(../../img/Big_Bobs/header__cheddar__hover.png);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        width: 100%;
+        height: 100vh;    
+    }
+
+    .menu__title{
+        font-family: OCRAExt;
+        color: #EBECF5;
+        font-size: 5em;
+        text-transform: uppercase;
+        writing-mode: horizontal-tb;
+        padding-top: 8%;
+        text-align: center;
+    }
+
+    .menu__title--desert{
+        font-family: OCRAExt;
+        color: #56575C;
+        font-size: 5em;
+        text-transform: uppercase;
+        writing-mode: horizontal-tb;
+        padding-top: 8%;
+        padding-bottom: 10%;
+        text-align: center;
+    }
+
+    .hamburguer__name--left{
+        font-family: GroldM;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .hamburguer__name--right{
+        font-family: GroldM;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .hamburguer__description--left{
+        font-family: GroldM;
+        text-transform: uppercase;
+        text-align: justify;
+    }
+    
+    
+    .hamburguer__description--right{
+        font-family: GroldM;
+        text-transform: uppercase;
+        text-align: justify;
+    }
+
+    .desert__name{
+        font-family: GroldM;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .social__media{
+        margin-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+    .img__app{
+        margin-bottom: 2%;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+   
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .img__link--pizza{
+        position: absolute;
+        top: 45%;
+        left: 20%;
+    }
+    
+    .img__link--bigbobs{
+        position: absolute;
+        top: 45%;
+        left: 23%;
+    }
+    
+    .img__link--grill{
+        position: absolute;
+        top: 35%;
+        left: 25%;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .carousel__control--img{
+        height: 91px;
+        width: 151px;
+    }
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+}
